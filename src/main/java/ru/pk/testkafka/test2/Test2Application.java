@@ -26,7 +26,7 @@ public class Test2Application implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-        testProducer1.send("Test1: " + (new SimpleDateFormat("dd.MM.yyyy mm:ss").format(new Date())));
+        testProducer1.send("Test1: " + (new SimpleDateFormat("dd.MM.yyyy mm:ss:SSS").format(new Date())));
     }
 
 }
